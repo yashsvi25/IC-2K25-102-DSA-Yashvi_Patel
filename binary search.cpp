@@ -1,3 +1,4 @@
+#include<iostream.h>
 #define max 5
 class bs{
     private: int a[max];
