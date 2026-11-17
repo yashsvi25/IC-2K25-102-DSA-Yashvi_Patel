@@ -8,8 +8,8 @@ void display(){
         std::cin>>a[i];
     }
 }
-void searching(){
-    for(int i=1;i<max;i++){
+void insertion_sort(){
+    for(int i=0;i<max;i++){
         temp=a[i];
         j=i-1;
     }
