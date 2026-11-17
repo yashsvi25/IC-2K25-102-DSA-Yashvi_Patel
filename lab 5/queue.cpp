@@ -1,23 +1,23 @@
 #include <iostream>
 using namespace std;
 
-#define MAX 5 // Defining the maximum size of the queue
+#define MAX 5 
 
 class Queue {
 private:
     int a[MAX];
     int front;
     int rear;
-    int x; // Variable to store input/output elements
+    int x; 
 
 public:
-    // Constructor to initialize front and rear
+   
     Queue() {
         front = -1;
         rear = -1;
     }
 
-    // Function to insert an element into the queue
+    
     void insert() {
         if (rear == MAX - 1) {
             cout << "Queue Overflow\n";
@@ -35,7 +35,7 @@ public:
         }
     }
 
-    // Function to delete an element from the queue
+    
     void delete_c() {
         if (front == -1) {
             cout << "Queue Underflow\n";
@@ -53,7 +53,7 @@ public:
         }
     }
 
-    // Function to display the queue elements
+    
     void display() {
         if (front == -1) {
             cout << "Queue has no elements\n";
